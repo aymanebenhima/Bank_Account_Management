@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Releve SYSTEM "file:/C:/Users/sahar/OneDrive/Bureau/Examen%20XML%20et%20WS/releve.dtd">
+<Releve RIB="011112222333344445555666">
+    <dateReleve>2021-02-01</dateReleve>
+    <solde>14500</solde>
+    <operations dateDebut="2021-01-01" dateFin="2021-01-30">
+        <operation type="CREDIT" date="2021-01-01" montant="9000" description="Vers Espece"></operation>
+        <operation type="DEBIT" date="2021-01-11" montant="3400" description="Cheque Guichet"></operation>
+        <operation type="DEBIT" date="2021-01-15" montant="120" description="Prelevement Assurance"></operation>
+        <operation type="CREDIT" date="2021-01-25" montant="70000" description="Virement"></operation>
+    </operations>
+</Releve>
